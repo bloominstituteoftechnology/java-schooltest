@@ -5,7 +5,7 @@ A student that completes this project shows that they can:
 ## Introduction
 
 ## Instructions
-Start with the java-school project.
+Start with the school project.
 
 * In CourseService Add a method for findCourseById
   * Write a unit test for CourseServiceImpl findCourseById
