@@ -23,9 +23,9 @@ Start with the school project.
   * The course data will contain course name and an instructor object
   * No students will be added to the course via this method
   
-  * In add an unit test for save
-  * In add an unit test for addNewCourse
-  * In an integration test for POST //courses/course/add
+  * add an unit test for save
+  * add an unit test for addNewCourse
+  * add an integration test for POST //courses/course/add
 
 ## Stretch Goals
 * In StudentService Add a method for Adding a new student called save
