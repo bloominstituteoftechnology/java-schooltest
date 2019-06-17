@@ -20,7 +20,7 @@ Start with the school project.
 
 * In CourseService Add a method for Adding a new course called save
 * In CourseController add a controller to POST a new course POST /courses/course/add. Method should be named addNewCourse
-  * The course data will contain course name and an instructor object
+  * The course data will contain course name and an instructor object (of an already existing instructor)
   * No students will be added to the course via this method
   
   * add an unit test for save
