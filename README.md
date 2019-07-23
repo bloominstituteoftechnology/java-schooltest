@@ -5,7 +5,7 @@ A student that completes this project shows that they can:
 ## Introduction
 
 ## Instructions
-Start with the school project.
+Start with the school project - you can start with the project provided OR as a stretch goal, use your previous school project!
 
 * In CourseService Add a method for findCourseById
   * Write a unit test for CourseServiceImpl findCourseById
