@@ -23,7 +23,13 @@ public class CourseServiceImpl implements CourseService
         courserepos.findAll().iterator().forEachRemaining(list::add);
         return list;
     }
-
+    @Override
+    public Course findCourseById(long id) throws EntityNotFoundException
+    {
+        Course course = courserepos.findById(id).orElse(null);
+        if (course == null) throw new EntityNotFoundException();
+        return course;
+    }
     @Override
     public ArrayList<CountStudentsInCourses> getCountStudentsInCourse()
     {

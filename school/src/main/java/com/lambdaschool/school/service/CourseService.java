@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public interface CourseService
 {
     ArrayList<Course> findAll();
+    Course findCourseById(long id);
 
     ArrayList<CountStudentsInCourses> getCountStudentsInCourse();
 
