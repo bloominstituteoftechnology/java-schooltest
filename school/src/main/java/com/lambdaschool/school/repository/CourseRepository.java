@@ -12,6 +12,7 @@ import java.util.List;
 public interface CourseRepository extends CrudRepository<Course, Long>
 {
     ArrayList<Course> findCoursesByCoursenameEquals(String name);
+    ArrayList<Course> findCourseById(long id);
 
     @Modifying
     @Query(value = "DELETE FROM studcourses WHERE courseid = :courseid", nativeQuery = true)
